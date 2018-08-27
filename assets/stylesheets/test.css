@@ -1,0 +1,112 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+
+
+.body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.container{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    padding: 50px;
+    border: 1px solid red;
+    /* margin: 50px;    */
+}
+
+.image{
+    text-align: left;
+}
+
+#item-name{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: bold; */
+}
+
+.description{
+    
+}
+
+
+
+#item-price{
+    color: #555555;
+    font-family: 'Roboto', sans-serif;
+}
+
+.image img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.selectors{
+    color: #555555;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid blue;
+    align-items: center;
+
+}
+
+.selectors select{
+    width: 100%;
+    font-size: 16px;
+    padding: 16px 24px 16px 70px;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border-radius: 0px;
+    font-weight: 300;
+    overflow: hidden;
+    margin: 0;
+    outline: none;
+}
