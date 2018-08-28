@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/stylesheets/checkout.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home-SHOP</title>
+</head>
+<body>
+    <header class="header-container">
+        <p class="heading">S H O P</p>
+        <a><img src="assets/images/shopping-cart.png" class="shopping-cart-image"></a>
+        <br><br><br>
+    </header>
+
+    <div class="container">
+        <br><br>
+            <div class="subheading">
+              <h1>Checkout</h1>
+              <p>Shop is a demo app - form data will not be sent</p>
+            </div>
+            <br>
+            <div class="data-form">
+              <div class="item">
+                <form>
+                  <h2 class="form-headings">Account Information</h2><br>
+                  <div class="group">      
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Email</label>
+                  </div>
+                  <div class="group">      
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Phone Number</label>
+                  </div>
+                  <h2 class="form-headings">Shipping Address</h2><br>
+                  <div class="group">      
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Address</label>
+                  </div>
+                  <div class="group">      
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>City</label>
+                  </div>
+                  <div class="multi-item-form">
+                    <div class="group small-group">      
+                        <input type="text" required>
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>State/Province</label>
+                    </div>
+                    <div class="group small-group">      
+                        <input type="text" required>
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Zip/Postal Code</label>
+                    </div>
+                  </div>
+                  <div class="shop-select">
+                        <label id="sizeLabel" prefix="">Country</label>
+                        <select id="sizeSelect" aria-labelledby="sizeLabel">
+                            <option value="india" selected>India</option>
+                            <option value="usa">United States</option>
+                        </select>
+                        <div class="shop-md-decorator">
+                            <div class="shop-underline"></div>
+                        </div>
+                    </div>
+                   <h2 class="form-headings">Billing Address</h2><br>
+                   <div class="group">
+                        <input type="checkbox" id="setBilling" name="setBilling">
+                        <label>Use different billing address</label>
+                   </div>
+              </div>
+              <div class="item">
+                <h2 class="form-headings">Payment Information</h2><br>
+                <div class="group">      
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Cardholder Name</label>
+                </div>
+                <div class="group">      
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Card Number</label>
+                </div>
+                <div class="multi-item-form">
+                    <div class="shop-select sub-select">
+                        <label id="sizeLabel" prefix="">Expiry</label>
+                        <select id="sizeSelect" aria-labelledby="sizeLabel">
+                            <option value="india" selected>India</option>
+                            <option value="usa">United States</option>
+                        </select>
+                        <div class="shop-md-decorator">
+                            <div class="shop-underline"></div>
+                        </div>
+                    </div>
+                    <div class="shop-select sub-select">
+                        <select id="sizeSelect" aria-labelledby="sizeLabel">
+                            <option value="india" selected>India</option>
+                            <option value="usa">United States</option>
+                        </select>
+                        <div class="shop-md-decorator">
+                            <div class="shop-underline"></div>
+                        </div>
+                    </div>
+                    <div class="sub-group sub-select">      
+                        <input type="text" required>
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>CVV</label>
+                    </div>
+                </div>
+                <h2 class="form-headings">Order Summary</h2>
+                <div class="order-summary">
+                    <p class="left">
+                        Men's Tech Shell Full-Zip
+                    </p>
+                    <p class="right">
+                        $100.40
+                    </p><br><br><br>
+                    <p class="left">
+                        Total
+                    </p>
+                    <p class="right">
+                        $100.40
+                    </p>
+                </div><br><br>
+                <a href="#" class="button shop-button">PLACE ORDER</a>
+
+                </form>
+              </div>
+            </div>
+              
+          </div>
+          
+
+    <footer class="footer-container">
+        <a href="#">Made by Srivatsa</a>
+        <p class="demo-text">DEMO ONLY</p>
+    </footer>
+</body>
+</html>
