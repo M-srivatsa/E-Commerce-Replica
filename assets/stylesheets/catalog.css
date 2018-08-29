@@ -97,6 +97,7 @@ body{
 
 .sub-heading{
     font-size: 18px;
+    font-weight: lighter;
     line-height: 1.5;
     margin: 5px;
 }
@@ -133,11 +134,13 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
 }
 .items{
-    padding: 5%;
+    padding-bottom: 8%;
 }
 
 .items img{
     object-fit: cover;
+    margin-bottom: 5%;
+    font-weight: 
 }
 
 .items a{
@@ -153,6 +156,7 @@ body{
 }
 
 .item-price{
+    font-size: 13px;
     text-decoration: none;
     color: #555555;
 }

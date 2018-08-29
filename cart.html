@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/stylesheets/cart.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home-SHOP</title>
+</head>
+<body>
+    <header class="header-container">
+        <p class="heading">S H O P</p>
+        <a href="#"><img src="assets/images/shopping-cart.png" class="shopping-cart-image"></a>
+        <br><br>
+    </header>
+
+    <div class="container">
+        <div class="subheading">
+            <h1>Your Cart</h1>
+            <p>(1 item)</p>
+        </div>
+        <br> 
+
+        <div class="cart-container">
+
+            <div class="flex image-container">
+                <img src="assets/images/72pxitem.jpg" style="width:72px; height:75px;">
+            </div>
+
+            <div class="flex checkout-container">
+                <div class="grid-container">
+                    <div class="name">
+                        <a href="details.html">Men's Tech Shell Full-Zip</a>
+                    </div>
+                    <div class="quantity">
+                        <div class="shop-select sub-select">
+                            <label id="sizeLabel" prefix="">Qty:</label>
+                            <select id="sizeSelect" aria-labelledby="sizeLabel">
+                                <option value="1" selected>1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="size">
+                        Size:<span class="item-size">M</span>
+                    </div>
+                    <div class="price">
+                        $50.20
+                    </div>
+                    <div class="delete">
+                        X
+                    </div>
+                </div><br>
+                <div class="checkout-button">
+                    Total: <span class="subtotal">$50.20</span>
+                    <a href="checkout.html" class="button shop-button">CHECKOUT</a>
+                </div>
+            </div>
+        </div>
+    </div>
+          
+    <div class="sticky-button">
+        <a href="checkout.html">CHECKOUT</a>
+    </div>
+
+    <footer class="footer-container">
+        <a href="#">Made by Srivatsa</a>
+        <p class="demo-text">DEMO ONLY</p>
+    </footer>
+</body>
+</html>
