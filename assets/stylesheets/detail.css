@@ -166,6 +166,11 @@ label{
 
 }
 
+.main-heading {
+    text-decoration: none;
+    color: black;
+  }
+
 #sizeLabel, #quantityLabel{
     color: grey;
     padding-top: 6%;
